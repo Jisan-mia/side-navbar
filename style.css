@@ -97,9 +97,14 @@ a {
 	font-size: 1.5rem;
 	margin: 0 0.5rem;
 	color: rgba(50, 50, 243, 0.87);
+	transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 500px) {
+.social-icon a:hover {
+	color: rgba(50, 50, 243, 0.603);
+}
+
+@media (max-width: 550px) {
 	.nav {
 		width: 100vw;
 	}
